@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: khaki;
+    /* background-image: url('spotifybackground.jpg.webp');
+    background-size: 1500px; */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu' , sans-serif ;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url('bg.jpg');
+    background-size: 1250px 750px;
+}
+.bottom{
+    padding: 20px;
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.icons{
+    color: white;
+    padding: 14px;
+}
+.icons i{
+    cursor: pointer;
+    padding: 0 3px;
+} 
+#MyProgressBar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+.range{
+    color: blue;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 57%;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+}
+.songItem img{
+    width: 35px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.header{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 55px;
+    text-align: left;
+}
+.songinfo{
+    position: absolute;
+    left: 8vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in ;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        /* For Chrome, Safari, Opera, and Edge  */
+        input[type="range"]::-webkit-slider-runnable-track {
+            background: gold;
+            padding: 1px;
+            height: 1rem;
+            border-radius: 12px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="pngwing.com.png" alt="">Cadence</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <div class="header"><h1>Best of NCS - No copyright sounds</h1>
+            </div>
+            <!-- <h1>Best of NCS - No copyright sounds</h1> -->
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="0" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="2" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="3" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="4" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="5" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="6" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="7" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="8" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i id="9" class="far songitemplay fa-circle-play"></i></span>
+            </div>
+            
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="MyProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="far fa-3x fa-backward-step" id="previous"></i>
+            <i class="far fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="far fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="1" id="gif"> <span id="mastersongname">Salaame - Ishq</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/40d944fe81.js" crossorigin="anonymous"></script>
+    <script src="script.js "></script>
+</body>
+</html> 
